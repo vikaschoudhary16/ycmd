@@ -15,7 +15,7 @@
 	url = https://github.com/kennethreitz/requests
 [submodule "third_party/gocode"]
 	path = third_party/gocode
-	url = https://github.com/nsf/gocode.git
+	url = https://github.com/mdempsky/gocode.git
 [submodule "third_party/JediHTTP"]
 	path = third_party/JediHTTP
 	url = https://github.com/vheon/JediHTTP
