@@ -211,7 +211,7 @@ class GoCompleter( Completer ):
 
       command = [ self._gocode_binary_path,
                   '-s',
-                  '-sock', 'tcp',
+                  '-sock', 'tcp', '-source',
                   '-addr', self._gocode_host ]
 
       if _logger.isEnabledFor( logging.DEBUG ):
